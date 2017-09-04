@@ -4,8 +4,6 @@
 > 重新整合了更灵活的AlertView、DatePickerView、PickerView、SheetView四种样式，适用于对弹窗样式个性化较高的项目
 > 加入了removeUntilCall属性，控制弹框是否可以通过点击周围空白区域来隐藏，可根据业务需求灵活定制
 
-![1](https://github.com/quanchengk/DFPopView/blob/master/Resource/1.png)
-
 ## AlertView
 > 根据原生的UIAlertView，仿制了一套类似的样式，支持样式多变、能适应的需求场景更丰富
 * DFAlertStyleSuccess：带成功图标的弹框样式，该样式仅支持跟上标题，不具有详情label
@@ -25,3 +23,6 @@
 
 由于我做的项目需要把这些控件的弹出样式、整体风格保持统一，所以有些控件即使改动不大的，也封装在PopKit里面了，各位可根据各自的项目需要抽离需要的控件，控件之间不耦合。
 详情请参见demo->DFPopKit
+
+
+![1](https://github.com/quanchengk/DFPopView/blob/master/Resource/1.png)
