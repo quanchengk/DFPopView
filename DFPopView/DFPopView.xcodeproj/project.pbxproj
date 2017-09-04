@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50BFEA448DA666F0ACE96D2B /* libPods-DFPopView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D82284C54D46073C50A066CD /* libPods-DFPopView.a */; };
+		B3D76E761F5CD81F008A1E2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D76E751F5CD81F008A1E2E /* main.m */; };
+		B3D76E791F5CD81F008A1E2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D76E781F5CD81F008A1E2E /* AppDelegate.m */; };
+		B3D76E7C1F5CD81F008A1E2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D76E7B1F5CD81F008A1E2E /* ViewController.m */; };
+		B3D76E7F1F5CD81F008A1E2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D76E7D1F5CD81F008A1E2E /* Main.storyboard */; };
+		B3D76E811F5CD81F008A1E2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D76E801F5CD81F008A1E2E /* Assets.xcassets */; };
+		B3D76E841F5CD81F008A1E2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D76E821F5CD81F008A1E2E /* LaunchScreen.storyboard */; };
+		B3D76EA01F5CD863008A1E2E /* DFBasePopView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D76E901F5CD863008A1E2E /* DFBasePopView.m */; };
+		B3D76EC71F5D2C79008A1E2E /* btn_tips@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3D76EB51F5D2C78008A1E2E /* btn_tips@2x.png */; };
+		B3D76EC81F5D2C79008A1E2E /* btn_tips@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3D76EB61F5D2C78008A1E2E /* btn_tips@3x.png */; };
+		B3D76EC91F5D2C79008A1E2E /* DFAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D76EB81F5D2C78008A1E2E /* DFAlertView.m */; };
+		B3D76ECA1F5D2C79008A1E2E /* icon_popup_fail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3D76EB91F5D2C78008A1E2E /* icon_popup_fail@2x.png */; };
+		B3D76ECB1F5D2C79008A1E2E /* icon_popup_fail@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3D76EBA1F5D2C78008A1E2E /* icon_popup_fail@3x.png */; };
+		B3D76ECC1F5D2C79008A1E2E /* icon_popup_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3D76EBB1F5D2C78008A1E2E /* icon_popup_success@2x.png */; };
+		B3D76ECD1F5D2C79008A1E2E /* icon_popup_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3D76EBC1F5D2C78008A1E2E /* icon_popup_success@3x.png */; };
+		B3D76ECE1F5D2C79008A1E2E /* DFDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D76EBF1F5D2C78008A1E2E /* DFDatePickerView.m */; };
+		B3D76ECF1F5D2C79008A1E2E /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3D76EC11F5D2C79008A1E2E /* city.plist */; };
+		B3D76ED01F5D2C79008A1E2E /* DFPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D76EC31F5D2C79008A1E2E /* DFPickerView.m */; };
+		B3D76ED11F5D2C79008A1E2E /* DFSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D76EC61F5D2C79008A1E2E /* DFSheetView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E8F03328512929D49A136DA /* Pods-DFPopView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFPopView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DFPopView/Pods-DFPopView.debug.xcconfig"; sourceTree = "<group>"; };
+		6145B8171E4AC443FB469764 /* Pods-DFPopView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFPopView.release.xcconfig"; path = "Pods/Target Support Files/Pods-DFPopView/Pods-DFPopView.release.xcconfig"; sourceTree = "<group>"; };
+		B3D76E711F5CD81F008A1E2E /* DFPopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFPopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D76E751F5CD81F008A1E2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3D76E771F5CD81F008A1E2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3D76E781F5CD81F008A1E2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3D76E7A1F5CD81F008A1E2E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3D76E7B1F5CD81F008A1E2E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3D76E7E1F5CD81F008A1E2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3D76E801F5CD81F008A1E2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3D76E831F5CD81F008A1E2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3D76E851F5CD81F008A1E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D76E8F1F5CD863008A1E2E /* DFBasePopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBasePopView.h; sourceTree = "<group>"; };
+		B3D76E901F5CD863008A1E2E /* DFBasePopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBasePopView.m; sourceTree = "<group>"; };
+		B3D76EB51F5D2C78008A1E2E /* btn_tips@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_tips@2x.png"; sourceTree = "<group>"; };
+		B3D76EB61F5D2C78008A1E2E /* btn_tips@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_tips@3x.png"; sourceTree = "<group>"; };
+		B3D76EB71F5D2C78008A1E2E /* DFAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFAlertView.h; sourceTree = "<group>"; };
+		B3D76EB81F5D2C78008A1E2E /* DFAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFAlertView.m; sourceTree = "<group>"; };
+		B3D76EB91F5D2C78008A1E2E /* icon_popup_fail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_popup_fail@2x.png"; sourceTree = "<group>"; };
+		B3D76EBA1F5D2C78008A1E2E /* icon_popup_fail@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_popup_fail@3x.png"; sourceTree = "<group>"; };
+		B3D76EBB1F5D2C78008A1E2E /* icon_popup_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_popup_success@2x.png"; sourceTree = "<group>"; };
+		B3D76EBC1F5D2C78008A1E2E /* icon_popup_success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_popup_success@3x.png"; sourceTree = "<group>"; };
+		B3D76EBE1F5D2C78008A1E2E /* DFDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFDatePickerView.h; sourceTree = "<group>"; };
+		B3D76EBF1F5D2C78008A1E2E /* DFDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFDatePickerView.m; sourceTree = "<group>"; };
+		B3D76EC11F5D2C79008A1E2E /* city.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = city.plist; sourceTree = "<group>"; };
+		B3D76EC21F5D2C79008A1E2E /* DFPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPickerView.h; sourceTree = "<group>"; };
+		B3D76EC31F5D2C79008A1E2E /* DFPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFPickerView.m; sourceTree = "<group>"; };
+		B3D76EC51F5D2C79008A1E2E /* DFSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFSheetView.h; sourceTree = "<group>"; };
+		B3D76EC61F5D2C79008A1E2E /* DFSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFSheetView.m; sourceTree = "<group>"; };
+		D82284C54D46073C50A066CD /* libPods-DFPopView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DFPopView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3D76E6E1F5CD81F008A1E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50BFEA448DA666F0ACE96D2B /* libPods-DFPopView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0862BDF67182AEB8A1075A41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E8F03328512929D49A136DA /* Pods-DFPopView.debug.xcconfig */,
+				6145B8171E4AC443FB469764 /* Pods-DFPopView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3D76E681F5CD81F008A1E2E = {
+			isa = PBXGroup;
+			children = (
+				B3D76E731F5CD81F008A1E2E /* DFPopView */,
+				B3D76E721F5CD81F008A1E2E /* Products */,
+				0862BDF67182AEB8A1075A41 /* Pods */,
+				D409F7D0DBDEFE53327BA06A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3D76E721F5CD81F008A1E2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3D76E711F5CD81F008A1E2E /* DFPopView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3D76E731F5CD81F008A1E2E /* DFPopView */ = {
+			isa = PBXGroup;
+			children = (
+				B3D76E8B1F5CD863008A1E2E /* DFPopKit */,
+				B3D76E771F5CD81F008A1E2E /* AppDelegate.h */,
+				B3D76E781F5CD81F008A1E2E /* AppDelegate.m */,
+				B3D76E7A1F5CD81F008A1E2E /* ViewController.h */,
+				B3D76E7B1F5CD81F008A1E2E /* ViewController.m */,
+				B3D76E7D1F5CD81F008A1E2E /* Main.storyboard */,
+				B3D76E801F5CD81F008A1E2E /* Assets.xcassets */,
+				B3D76E821F5CD81F008A1E2E /* LaunchScreen.storyboard */,
+				B3D76E851F5CD81F008A1E2E /* Info.plist */,
+				B3D76E741F5CD81F008A1E2E /* Supporting Files */,
+			);
+			path = DFPopView;
+			sourceTree = "<group>";
+		};
+		B3D76E741F5CD81F008A1E2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D76E751F5CD81F008A1E2E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3D76E8B1F5CD863008A1E2E /* DFPopKit */ = {
+			isa = PBXGroup;
+			children = (
+				B3D76E8F1F5CD863008A1E2E /* DFBasePopView.h */,
+				B3D76E901F5CD863008A1E2E /* DFBasePopView.m */,
+				B3D76EB41F5D2C78008A1E2E /* DFAlertView */,
+				B3D76EBD1F5D2C78008A1E2E /* DFDatePickerView */,
+				B3D76EC01F5D2C79008A1E2E /* DFPickerView */,
+				B3D76EC41F5D2C79008A1E2E /* DFSheetView */,
+			);
+			path = DFPopKit;
+			sourceTree = "<group>";
+		};
+		B3D76EB41F5D2C78008A1E2E /* DFAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				B3D76EB71F5D2C78008A1E2E /* DFAlertView.h */,
+				B3D76EB81F5D2C78008A1E2E /* DFAlertView.m */,
+				B3D76EB51F5D2C78008A1E2E /* btn_tips@2x.png */,
+				B3D76EB61F5D2C78008A1E2E /* btn_tips@3x.png */,
+				B3D76EB91F5D2C78008A1E2E /* icon_popup_fail@2x.png */,
+				B3D76EBA1F5D2C78008A1E2E /* icon_popup_fail@3x.png */,
+				B3D76EBB1F5D2C78008A1E2E /* icon_popup_success@2x.png */,
+				B3D76EBC1F5D2C78008A1E2E /* icon_popup_success@3x.png */,
+			);
+			path = DFAlertView;
+			sourceTree = "<group>";
+		};
+		B3D76EBD1F5D2C78008A1E2E /* DFDatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				B3D76EBE1F5D2C78008A1E2E /* DFDatePickerView.h */,
+				B3D76EBF1F5D2C78008A1E2E /* DFDatePickerView.m */,
+			);
+			path = DFDatePickerView;
+			sourceTree = "<group>";
+		};
+		B3D76EC01F5D2C79008A1E2E /* DFPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				B3D76EC21F5D2C79008A1E2E /* DFPickerView.h */,
+				B3D76EC31F5D2C79008A1E2E /* DFPickerView.m */,
+				B3D76EC11F5D2C79008A1E2E /* city.plist */,
+			);
+			path = DFPickerView;
+			sourceTree = "<group>";
+		};
+		B3D76EC41F5D2C79008A1E2E /* DFSheetView */ = {
+			isa = PBXGroup;
+			children = (
+				B3D76EC51F5D2C79008A1E2E /* DFSheetView.h */,
+				B3D76EC61F5D2C79008A1E2E /* DFSheetView.m */,
+			);
+			path = DFSheetView;
+			sourceTree = "<group>";
+		};
+		D409F7D0DBDEFE53327BA06A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D82284C54D46073C50A066CD /* libPods-DFPopView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3D76E701F5CD81F008A1E2E /* DFPopView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D76E881F5CD81F008A1E2E /* Build configuration list for PBXNativeTarget "DFPopView" */;
+			buildPhases = (
+				EF069A0273D75BD9F38B93D4 /* [CP] Check Pods Manifest.lock */,
+				B3D76E6D1F5CD81F008A1E2E /* Sources */,
+				B3D76E6E1F5CD81F008A1E2E /* Frameworks */,
+				B3D76E6F1F5CD81F008A1E2E /* Resources */,
+				3C85A27DCD94C75D0449AA88 /* [CP] Embed Pods Frameworks */,
+				1070D5095E8666103CB47DD9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DFPopView;
+			productName = DFPopView;
+			productReference = B3D76E711F5CD81F008A1E2E /* DFPopView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3D76E691F5CD81F008A1E2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "全程恺";
+				TargetAttributes = {
+					B3D76E701F5CD81F008A1E2E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = N4QU3P3JZ2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = B3D76E6C1F5CD81F008A1E2E /* Build configuration list for PBXProject "DFPopView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3D76E681F5CD81F008A1E2E;
+			productRefGroup = B3D76E721F5CD81F008A1E2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3D76E701F5CD81F008A1E2E /* DFPopView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3D76E6F1F5CD81F008A1E2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D76ECD1F5D2C79008A1E2E /* icon_popup_success@3x.png in Resources */,
+				B3D76E841F5CD81F008A1E2E /* LaunchScreen.storyboard in Resources */,
+				B3D76E811F5CD81F008A1E2E /* Assets.xcassets in Resources */,
+				B3D76ECC1F5D2C79008A1E2E /* icon_popup_success@2x.png in Resources */,
+				B3D76ECA1F5D2C79008A1E2E /* icon_popup_fail@2x.png in Resources */,
+				B3D76EC81F5D2C79008A1E2E /* btn_tips@3x.png in Resources */,
+				B3D76E7F1F5CD81F008A1E2E /* Main.storyboard in Resources */,
+				B3D76ECF1F5D2C79008A1E2E /* city.plist in Resources */,
+				B3D76ECB1F5D2C79008A1E2E /* icon_popup_fail@3x.png in Resources */,
+				B3D76EC71F5D2C79008A1E2E /* btn_tips@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1070D5095E8666103CB47DD9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DFPopView/Pods-DFPopView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C85A27DCD94C75D0449AA88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DFPopView/Pods-DFPopView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF069A0273D75BD9F38B93D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3D76E6D1F5CD81F008A1E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D76EA01F5CD863008A1E2E /* DFBasePopView.m in Sources */,
+				B3D76E7C1F5CD81F008A1E2E /* ViewController.m in Sources */,
+				B3D76E791F5CD81F008A1E2E /* AppDelegate.m in Sources */,
+				B3D76E761F5CD81F008A1E2E /* main.m in Sources */,
+				B3D76ECE1F5D2C79008A1E2E /* DFDatePickerView.m in Sources */,
+				B3D76EC91F5D2C79008A1E2E /* DFAlertView.m in Sources */,
+				B3D76ED11F5D2C79008A1E2E /* DFSheetView.m in Sources */,
+				B3D76ED01F5D2C79008A1E2E /* DFPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3D76E7D1F5CD81F008A1E2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3D76E7E1F5CD81F008A1E2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3D76E821F5CD81F008A1E2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3D76E831F5CD81F008A1E2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3D76E861F5CD81F008A1E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3D76E871F5CD81F008A1E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3D76E891F5CD81F008A1E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E8F03328512929D49A136DA /* Pods-DFPopView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Licheng Cai (GVKW26J472)";
+				DEVELOPMENT_TEAM = N4QU3P3JZ2;
+				INFOPLIST_FILE = DFPopView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmisp.DFPopView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "XDJ_Development_*";
+			};
+			name = Debug;
+		};
+		B3D76E8A1F5CD81F008A1E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6145B8171E4AC443FB469764 /* Pods-DFPopView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DFPopView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmisp.DFPopView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3D76E6C1F5CD81F008A1E2E /* Build configuration list for PBXProject "DFPopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D76E861F5CD81F008A1E2E /* Debug */,
+				B3D76E871F5CD81F008A1E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3D76E881F5CD81F008A1E2E /* Build configuration list for PBXNativeTarget "DFPopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D76E891F5CD81F008A1E2E /* Debug */,
+				B3D76E8A1F5CD81F008A1E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3D76E691F5CD81F008A1E2E /* Project object */;
+}
